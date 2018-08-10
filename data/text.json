@@ -1,0 +1,14 @@
+[
+    {"text": "Hello and welcome to the game!"},
+    {"text": "What do you want to do?",
+     "responses": [
+         {
+             "text": "press buttons",
+             "alignment": "neutral"
+         },{
+             "text": "quit",
+             "alignment": "neutral evil"
+         }
+     ]
+    }
+]
