@@ -15,8 +15,7 @@ class App:
     def update(self):
         if pyxel.btnp(pyxel.KEY_Q):
             pyxel.quit()
-        if pyxel.btnp(pyxel.KEY_N):
-            self.text.increment()
+        self.text.update()
 
     def draw(self):
         pyxel.cls(1)
